@@ -165,7 +165,7 @@ export const useMainStore = defineStore('main', {
         hideUnavailableIPStack: false,
         popupConnectivityNotifications: true,
         ipCardsToShow: 6,
-        ipGeoSource: 0,
+        ipGeoSource: 1,
         lang: 'auto',
       };
       const storedPreferences = localStorage.getItem('userPreferences');
